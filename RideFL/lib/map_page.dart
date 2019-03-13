@@ -45,7 +45,7 @@ class _MapPageState extends State<MapPage> with SingleTickerProviderStateMixin {
       body:  TabBarView(
         physics:  NeverScrollableScrollPhysics(),
         // Add tabs as widgets
-        children: <Widget>[HomeTravel(), Explore(), SavePoints(), Profile(), Travel()],
+        children: <Widget>[HomeTravel(), Explore(), SavePoints(), Profile()],
         // set the controller
         controller: controller,
       ),

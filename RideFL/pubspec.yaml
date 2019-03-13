@@ -21,6 +21,7 @@ flutter:
   assets:
     - assets/logo.png
     - assets/alucard.jpg
+    - assets/bike.png
   fonts:
       - family: Nunito
         fonts:

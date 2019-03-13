@@ -125,7 +125,8 @@ class TravelState extends State<Travel> {
             content: Row(
               children: <Widget>[
                 Expanded(
-                  child: TextField(
+                  child: TextFormField(
+                    keyboardType: TextInputType.number,
                     autofocus: true,
                   ),
                 )
@@ -133,6 +134,7 @@ class TravelState extends State<Travel> {
             ),
             actions: <Widget>[
               MaterialButton(
+                color: Colors.green[300],
                 child: Text("Ok"),
                 onPressed: () {
                   // Go to route config

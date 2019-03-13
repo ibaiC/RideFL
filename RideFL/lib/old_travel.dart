@@ -56,6 +56,7 @@ class HomeTravelState extends State<HomeTravel> {
               children: <Widget>[
                 Expanded(
                   child: TextField(
+                    keyboardType: TextInputType.number,
                     autofocus: true,
                   ),
                 )
@@ -63,7 +64,9 @@ class HomeTravelState extends State<HomeTravel> {
             ),
             actions: <Widget>[
               MaterialButton(
-                child: Text("Ok"),
+                color: Colors.green[300],
+                child: Text("Ok",
+                style: TextStyle(color: Colors.white),),
                 onPressed: () {
                   // Go to route config
                   Navigator.push(

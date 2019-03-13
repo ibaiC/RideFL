@@ -7,13 +7,13 @@ import 'package:login/travel.dart';
 
 
 
-class MapPage extends StatefulWidget {
+class ActiveMap extends StatefulWidget {
   static String tag = 'login-page';
   @override
-  _MapPageState createState() =>  _MapPageState();
+  _ActiveMapState createState() =>  _ActiveMapState();
 }
 
-class _MapPageState extends State<MapPage> with SingleTickerProviderStateMixin {
+class _ActiveMapState extends State<ActiveMap> with SingleTickerProviderStateMixin {
   // Create a tab controller
   TabController controller;
 
@@ -45,7 +45,7 @@ class _MapPageState extends State<MapPage> with SingleTickerProviderStateMixin {
       body:  TabBarView(
         physics:  NeverScrollableScrollPhysics(),
         // Add tabs as widgets
-        children: <Widget>[HomeTravel(), Explore(), SavePoints(), Profile(), Travel()],
+        children: <Widget>[Travel(), Explore(), SavePoints(), Profile()],
         // set the controller
         controller: controller,
       ),

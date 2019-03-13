@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+// Generate route with locations on this page
+
 class SavePoints extends StatelessWidget {
   @override
   Widget build(BuildContext context) {

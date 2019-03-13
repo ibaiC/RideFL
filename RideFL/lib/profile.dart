@@ -12,7 +12,7 @@ class Profile extends StatelessWidget {
             mainAxisAlignment: MainAxisAlignment.center,
             children: <Widget>[
               new Icon(
-                Icons.person,
+                Icons.location_city,
                 size: 160.0,
                 color: Colors.white,
               ),

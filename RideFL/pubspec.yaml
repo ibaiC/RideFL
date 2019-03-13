@@ -5,7 +5,12 @@ dependencies:
   flutter:
     sdk: flutter
   cupertino_icons: ^0.1.0
-  google_maps_flutter: ^0.4.0
+  # google_maps_flutter: ^0.4.0
+  google_maps_flutter: 
+    git:
+      url: git://github.com/awazgyawali/plugins/
+      path: packages/google_maps_flutter
+      ref: google_maps_polyline
 
 dev_dependencies:
   flutter_test:
